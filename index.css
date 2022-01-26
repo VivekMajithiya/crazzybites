@@ -33,6 +33,7 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
 #emblame{
     border: 2px groove #9c714e;
     background-color: #9c714e;
@@ -79,23 +80,37 @@ body{
     display:block;
     line-height:2;
     margin-left:2.5%;
+    color: rgb(180 67 52);
 }
 #ourmenuspan1{
-    color:rgb(86, 134, 207);
     font-size: 1.5rem;
     font-weight: bold;
 }
 #ourmenuspan2{
-    color:rgb(86, 134, 207);
     font-size: 1rem;
 }
 .innerblocks{
     height: 300px;
     width: 30%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    box-shadow: 10px 10px 10px gray;
     float: left;
     margin-left: 2.5%;
     margin-top: 2%;
+    border-radius: 10%;
+}
+.innersub1{
+    height:250px;
+    width: 100%;
+}
+.innersub2{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 1.5rem;
+}
+.menuimage{
+    height:100%;
+    width: 100%;
 }
 #footer{
     height: 60px;
