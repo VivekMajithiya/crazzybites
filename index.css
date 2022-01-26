@@ -92,7 +92,7 @@ body{
 .innerblocks{
     height: 300px;
     width: 30%;
-    border: 1px solid red;
+    border: 1px solid blue;
     float: left;
     margin-left: 2.5%;
     margin-top: 2%;
